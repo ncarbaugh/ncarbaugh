@@ -1,0 +1,53 @@
+Body {
+	background-color: #ff66a3;
+}
+Header {
+	background-color: #ffffcc;
+	background-image: url("pennsylvania-flag.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 139px;  /* height is 139 */
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 20px;
+}
+Footer {
+	background-color: #ffff99;
+	font-family: Verdana, Arial;
+	text-align: center;
+	font-size: 90%;
+	padding: 5px;
+}
+#content{
+	background-color: #ffffcc;
+	padding: 15px;
+	min-height: 300px;
+}
+Header, Footer, #content {
+	border-style: solid;
+	border-width:  1px;
+	border-color: #ffb84d;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1 {
+	color: #000000;
+	font-size: 300%;
+	font-family: Cambria,Courier;
+}
+.floatImg {
+	float: left;
+	margin: 0px 10px;
+}
+h2 {
+	color: black;
+	margin: 0px 10px;
+}
+ul {
+	list-style-position: inside;
+}
